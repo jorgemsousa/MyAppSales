@@ -1,4 +1,5 @@
 import React from 'react';
+import { theme } from '../../../themes';
 import {Logo, ImageSplash, Text} from '../../Atoms';
 import {View} from './styles';
 
@@ -7,7 +8,7 @@ export const SplashBody = () => {
     <View>
       <ImageSplash />
       <Logo />
-      <Text size="24px" bold="bold" color="#FFFFFF">
+      <Text size={theme.metrics.px(24)+'px'} bold="bold">
         Jorge M. Sousa
       </Text>
       <Text size="14px">Developed by</Text>
