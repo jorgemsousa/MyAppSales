@@ -2,7 +2,7 @@
 import styled from 'styled-components/native';
 
 export const SplashImage = styled.Image`
-    width: 310px;
-    height: 298px;
-    margin-bottom: 60px;
+    width: ${({theme}) => theme.metrics.px(380)}px;
+    height: ${({theme}) => theme.metrics.px(376)}px;
+    margin-bottom: ${({theme}) => theme.metrics.px(60)}px;
 `;

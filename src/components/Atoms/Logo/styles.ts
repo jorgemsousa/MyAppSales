@@ -2,7 +2,7 @@
 import styled from 'styled-components/native';
 
 export const ImageLogo = styled.Image`
-    width: 142px;
-    height: 142px;
+    width: ${({width, theme}) => width || theme.metrics.px(142)}px;
+    height: ${({height, theme}) => height || theme.metrics.px(142)}px;
 `;
 

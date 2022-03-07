@@ -2,3 +2,4 @@
 export * from './Logo';
 export * from './SplashFigure';
 export * from './Text';
+export * from './Input';

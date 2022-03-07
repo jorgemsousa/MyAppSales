@@ -1,8 +1,8 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import { ImageLogo } from './styles';
 import logoImage from '../../../assets/images/logo.png';
+import { ImageLogo } from './styles';
 
-export const Logo = () => (
-    <ImageLogo source={logoImage} />
+export const Logo = ({width, height}) => (
+    <ImageLogo source={logoImage} width={width} height={height} />
 )
