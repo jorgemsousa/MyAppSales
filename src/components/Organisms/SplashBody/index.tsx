@@ -12,8 +12,8 @@ export const SplashBody = () => {
       <Text size={theme.metrics.px(24)+'px'} bold="bold">
         Jorge M. Sousa
       </Text>
-      <Text size="14px">Developed by</Text>
-      <Text size="16px" bold="bold">
+      <Text size={theme.metrics.px(14)+'px'}>Developed by</Text>
+      <Text size={theme.metrics.px(16)+'px'} bold="bold">
         jorgeferartsousa@gmail.com
       </Text>
     </View>
