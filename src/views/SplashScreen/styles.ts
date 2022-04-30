@@ -3,7 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.SafeAreaView`
     flex: 1;
     flex-direction: column;
-    background-color: #29B6F6;
+    background-color: #01579B;
     align-items: center;
     justify-content: flex-start;
 `;

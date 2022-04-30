@@ -3,6 +3,8 @@ export const View = styled.View`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  margin-top: -${({theme}) => theme.metrics.px(700)}px;
+  margin-top: -${({theme}) => theme.metrics.px(800)}px;
 `;
-
+export const ViewLottie = styled.View`
+  margin-top: 50px 
+`

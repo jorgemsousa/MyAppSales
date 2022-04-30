@@ -1,4 +1,5 @@
 import React from 'react';
+import LottieView from 'lottie-react-native'
 import { theme } from '../../../themes';
 import {Logo, ImageSplash, Text} from '../../Atoms';
 import {CardFigure} from '../../Molecules';
@@ -8,7 +9,16 @@ export const SplashBody = () => {
   return (
     <View>
       <ImageSplash />
-      <Logo width={142} height={142}/>
+        <LottieView 
+          source={require('../../../assets/images/animation.json')}
+          autoPlay={true}
+          loop={true}
+          style={{
+            position: `absolute`,
+            top: 150,  
+            width: 500,         
+          }}
+        />
       <Text size={theme.metrics.px(24)+'px'} bold="bold">
         Jorge M. Sousa
       </Text>
