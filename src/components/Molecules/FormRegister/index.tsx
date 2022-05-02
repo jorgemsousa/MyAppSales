@@ -3,7 +3,7 @@ import {Buttom, Text, Input} from '../../Atoms'
 
 import {Container, Row} from './styles'
 
-export const FormRegister = () => {
+export const FormRegister = (props) => {
   return (
     <Container>
       <Input placeholder="Usuário" />
@@ -19,7 +19,7 @@ export const FormRegister = () => {
             Cadastrar
           </Text>
         </Buttom>
-        <Buttom width={150} bgcolor="#CACACA">
+        <Buttom width={150} bgcolor="#CACACA" onPress={() => props.navigation.goBack()}>
           <Text 
             size="20px" 
             bold="bold"

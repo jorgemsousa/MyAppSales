@@ -19,6 +19,7 @@ export const SplashBody = () => {
             width: 500,         
           }}
         />
+        <Logo width={85} height={85} />
       <Text size={theme.metrics.px(24)+'px'} bold="bold">
         Jorge M. Sousa
       </Text>
